@@ -34,7 +34,7 @@ while i <= 10:
 
 #Given number prime or not Check
 n=int(input("Ener any number"))
-i =1
+i = 2
 cnt = 0
 while i > 1 and i < n:
     if n % i == 0:

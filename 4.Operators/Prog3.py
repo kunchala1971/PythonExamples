@@ -11,7 +11,7 @@ print(a!=b) #true
 c=55
 print(a>b and a>c) #false
 print(a<b and a<c)  #false
-print(a>b and a<c) #true
+print(a>b or a<c) #true
 print(a>b != a>c) #false
 
 

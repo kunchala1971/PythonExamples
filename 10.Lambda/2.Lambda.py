@@ -5,6 +5,7 @@ def myfunc(n):
   return lambda a:a*n
 x = myfunc(2)
 print(x(11))
+
 #output 22
 #Multiple arugments
 def myfunc(b,c):

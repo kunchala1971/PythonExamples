@@ -1,4 +1,5 @@
-strinput=input().split(",")
+strinput=input("Enter inputs only numbers separated by cama").split(",")
+print(strinput)
 s=0
 for i in range(0,len(strinput)):
     s=s+int(strinput[i])

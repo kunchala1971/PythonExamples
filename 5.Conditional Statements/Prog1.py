@@ -8,7 +8,7 @@
 m=int(input("Enter maths marks"))
 p=int(input("Enter Phy marks"))
 c=int(input("Enter Che marks"))
-if (m>34 and p>34 and c>34):
+if (m > 34 and p > 34 and c > 34):
     print("pass")
 else:
     print("Fail")

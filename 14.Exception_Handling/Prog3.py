@@ -1,3 +1,4 @@
+#Single try multiple Exceptions
 cnames="Srinviasa"
 try:
   print(cnames + str(4545))

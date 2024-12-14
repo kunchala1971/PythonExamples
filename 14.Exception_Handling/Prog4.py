@@ -1,3 +1,4 @@
+#finally is an ultimate executing branch regardles of result
 name="Srinviasa"
 try:
   print(name)

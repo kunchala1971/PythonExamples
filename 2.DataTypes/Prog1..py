@@ -1,3 +1,4 @@
+#if you are assign any data to variables it takes appropriate data type
 code=100
 name="SrinivasaRao"
 age=35

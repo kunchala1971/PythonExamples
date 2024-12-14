@@ -24,5 +24,5 @@ print(name.strip().upper()) # it prints Upper Case
 print(name.strip().capitalize()) # it prints Capitalize
 print(name.replace('H','h')) # replaces H to small h
 print(name.strip().replace('H','h')) # replaces H to small h
-name="Ramesh#Kiran#Bharath#Mohan#Praveen"
-print(name.split("#"))# split the words using special character
+name="Ramesh$Kiran-Bharath$Mohan$Praveen"
+print(name.split("$"))# split the words using special character

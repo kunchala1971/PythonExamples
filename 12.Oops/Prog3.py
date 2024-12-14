@@ -3,7 +3,6 @@ class MyClass:
     def __init__(self,code,name):
         self.code=code
         self.name=name
-        print("Code:" + str(code) + " Name:" + name)
     def insertData(self,code,name):
         self.code = code
         self.name = name

@@ -6,7 +6,7 @@ except:
   f = open(filename,"a")
 finally:
   content=input("enter content")
-  f.write(content)
+  f.write("\n"+content)
   f=open(filename)
   print(f.read())
   f.close()

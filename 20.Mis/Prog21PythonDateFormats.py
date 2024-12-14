@@ -2,6 +2,7 @@ import datetime
 x = datetime.datetime.now()
 print(x)
 print(x.year)
+print(x.month)
 print(x.strftime("%A")) #Return  name of weekday in full form
 print(x.strftime("%a")) #Return name of weekday short form
 print(x.strftime("%B"))  #returns name of the month Full form

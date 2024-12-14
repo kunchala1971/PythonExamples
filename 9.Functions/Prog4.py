@@ -7,12 +7,10 @@ def tuple_reverse(arg):
 def tuple_adv_reverse(week_days):
     print(week_days[::-1])
 
-
 week_days=("Sun","Mon","Tue","Wed","Thu","Fri","Sat")
 #week_days=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]
 tuple_reverse(week_days)
 tuple_adv_reverse(week_days)
-
 print("Kunchala Srinivasarao"[::-1])
 
 
