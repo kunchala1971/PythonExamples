@@ -3,9 +3,9 @@
 #we must install mysql_connector using the following command in terminal
 #pip install mysql_connector
 
-import mysql.connector as MyConnection
+import mysql.connector as conn
 try:
-  mydb = MyConnection.connect(
+  mydb = conn.connect(
     host="localhost",#server name
     user="root", # by default my sql user name is root and password is blank
     passwd="DURGA", # if password is exists enter password otherwise no need

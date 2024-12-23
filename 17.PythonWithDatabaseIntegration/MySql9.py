@@ -1,7 +1,7 @@
 #drop table
-import mysql.connector
+import mysql.connector as conn
 
-mydb = mysql.connector.connect(
+mydb = conn.connect(
   host="localhost",
   user="root",
   passwd="DURGA",

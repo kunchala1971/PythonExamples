@@ -1,19 +1,22 @@
 class MyNumbers:
-  def __init__(self,start):
-    self.x=start
+  def __init__(self,startValue,endValue):
+    self.startValue=startValue
+    self.endValue=endValue
   def __iter__(self):
-    self.a = x
+    self.a = startValue
     return self
   def __next__(self):
-    if self.a <= 100:
-      x = self.a
+    if self.a <= endValue:
+      startvalue = self.a
       self.a += 10
-      return x
+      return startvalue
     else:
       raise StopIteration
 
-x=int(input("Enter Start value"))
-myclass = MyNumbers(x)
+startValue=int(input("Enter Start value"))
+endValue=int(input("Enter End value"))
+
+myclass = MyNumbers(startValue,endValue)
 myiter = iter(myclass)
 for x in myiter:
   print(x)

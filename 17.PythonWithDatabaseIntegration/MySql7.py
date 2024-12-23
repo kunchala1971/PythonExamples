@@ -1,6 +1,6 @@
 #7. order by name
-import mysql.connector
-mydb = mysql.connector.connect(
+import mysql.connector as conn
+mydb = conn.connect(
   host="localhost",
   user="root",
   passwd="DURGA",
@@ -8,7 +8,7 @@ mydb = mysql.connector.connect(
 )
 mycursor = mydb.cursor()
 #sql = "SELECT * FROM listofmovies ORDER BY sno " #by default ascending
-sql = "SELECT * FROM listofmovies ORDER BY sno desc"  #descending
+sql = "SELECT * FROM listofmovies ORDER BY movie_name desc"  #descending
 mycursor.execute(sql)
 myresult = mycursor.fetchall()
 for x in myresult:
