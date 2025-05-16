@@ -4,15 +4,15 @@ try:
   f = open(fname, "r")
   print(f.read()) #Entire file content read
   f.close()
-
+  print("-"*80)
   f = open(fname, "r")
   print(f.read(5)) #read first five characters
   f.close()
-
+  print("-"*80)
   f = open(fname, "r")
   print(f.readline()) # it reads one line(first)
   f.close()
-
+  print("-"*80)
   f = open(fname, "r")
   i=1
   for x in f:

@@ -19,6 +19,7 @@ show_home_town()
 show_home_town("Tirupathi")
 city=input("Enter Your Home City")
 show_home_town(city)
+
 def show_lists(args):
   for x in args:
     print(x)

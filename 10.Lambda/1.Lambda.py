@@ -1,4 +1,6 @@
 #lambda expression with pass arguments
+from colorsys import yiq_to_rgb
+
 x = lambda a : a * 10
 a=int(input("Enter a Value"))
 print(x(a))
@@ -14,7 +16,7 @@ print(x(5,8)) #400
 
 a=int(input("Enter a Value"))
 b=int(input("Enter b Value"))
-c=int(input("Enter b Value"))
+c=int(input("Enter c Value"))
 x = lambda a, b, c : a * b + c
 print(x(a, b, c))
 

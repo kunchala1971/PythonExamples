@@ -9,6 +9,8 @@ def prime_or_not(n):
 
     if cnt == 0:
         print(n,end=", ")
+    # else:
+    #     print(n," This is Not Prime")
 
 # n=int(input("Enter any Number"))
 # prime_or_not(n)

@@ -1,6 +1,7 @@
 #file is existed then append other wise create
 try:
   filename=input("enter file name")
+
   f = open(filename, "x")
 except:
   f = open(filename,"a")

@@ -11,7 +11,7 @@ t3=Thread(target=display,name="ChildThread3")
 t1.start()
 t2.start()
 t3.start()
-l=enumerate()
+l=enumerate()# it returns  current live threads list
 for t in l:
     print("\nStart Thread Name:",t.name)
     time.sleep(1)

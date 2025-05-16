@@ -1,3 +1,4 @@
+#dynamically inputs with type cast
 code=int(input("Enter Code"))
 name=input("Enter Name")
 age=int(input("Enter Age"))

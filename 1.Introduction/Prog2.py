@@ -7,7 +7,7 @@ city=input("Enter City")
 print("Code:"+code)
 print("Name:"+name)
 print("Age:"+str(age))
-#print("Age:",age)
+print("Age:",age)
 print("Course:"+course)
 print("City:"+city)
 
