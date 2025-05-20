@@ -11,7 +11,7 @@ class StudentDetails:
         self.name=name
         self.course=course
 
-p=StudentDetails()
+p=StudentDetails()# p is an instance of studentdetails
 p.showData()
 p.insertData(102,"Kiran","Java")
 p.showData()

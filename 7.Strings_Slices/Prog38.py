@@ -2,7 +2,7 @@
 # we must install pip install camelcase in terminal
 #if you want uninstall camelcase then pip uninstall camelcase
 import camelcase
-c = camelcase.CamelCase()
+c = camelcase.CamelCase()#camelcase(package).CamelCase(class)
 txt = "hello srinviasarao kunchala how are you"
 print(c.hump(txt)) #Title Case
 print(txt.lower()) #lowecase

@@ -10,5 +10,8 @@ for i in range(1,n+1):
         print("Wakeup on 5 AM")
     elif (d==1 or d==7) and is_vacation==False:
         print("Wakeup on 6 AM")
+    else:
+        print("Given Input is Wrong")
+
 
 

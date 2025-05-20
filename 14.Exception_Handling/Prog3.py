@@ -1,5 +1,5 @@
 #Single try multiple Exceptions
-cnames="Srinviasa"
+cnames=input("Enter Name")
 try:
   print(cnames + str(4545))
 except NameError:

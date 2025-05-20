@@ -1,3 +1,6 @@
+#Module means a collections of functions store into a single location
+# is called module. whenever we need to use that module we can import
+# then we can use
 def greeting(name):
   print("Hello, " + name)
 def add2(a,b):

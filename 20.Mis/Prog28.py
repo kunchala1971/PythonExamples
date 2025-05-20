@@ -23,3 +23,5 @@ def foo():
 foo()
 print("x in main : ", x)
 #out side funtion anywhere we can define the global
+
+

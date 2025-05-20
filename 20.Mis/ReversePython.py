@@ -1,4 +1,4 @@
-#take input and print reverse
+#take input and print reverse and sum
 Number = int(input("Please Enter any Number: "))
 #789
 Reverse = 0

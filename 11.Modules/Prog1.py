@@ -1,9 +1,10 @@
 import MyModules as MM
 a=int(input("Enter any number"))
 b=int(input("Enter any number"))
-result=MM.add2(a, b)
+result=MM.add(a,b)
 print(result)
-result=MM.add3(a, b, 45)
+c=int(input("Enter any number"))
+result=MM.add3(a,b,c)
 print(result)
 result=MM.area(4.5)
 print(result)

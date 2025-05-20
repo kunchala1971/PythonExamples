@@ -6,10 +6,9 @@
 vehicle={"model" : "Hero","price" : "45600","year" : "2010"}
 x = vehicle["model"] #it gets value of model key through index
 print(x)
-print("")
 x = vehicle.get("model")# it gets value of model key through method
 print(x)
-print("")
+
 vehicle["year"] = 2023
 #it prints keynames
 for key in vehicle:

@@ -13,6 +13,6 @@ t2.start()
 
 print(t1.name,"is Alive :",t1.is_alive())
 print(t2.name,"is Alive :",t2.is_alive())
-time.sleep(2)
+time.sleep(4)
 print(t1.name,"is Alive :",t1.is_alive())
 print(t2.name,"is Alive :",t2.is_alive())

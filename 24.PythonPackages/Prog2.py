@@ -1,9 +1,12 @@
 from pathlib import Path
-path=Path("testings")
+path=Path("testing")
 print(path.exists())
-#path.mkdir() # create a directory
-#path.rmdir() #remove the directory
-#path.rename("mytest")
+# path.mkdir() # create a directory
+# path.rmdir() #remove the directory
+# path.rename("mytest")
 paths=[p for p in path.iterdir() if p.is_dir()]
 py_files=[p for p in path.rglob("*.py")]
 print(py_files)
+
+for p in py_files:
+    print(p)
