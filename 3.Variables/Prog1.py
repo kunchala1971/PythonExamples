@@ -8,7 +8,6 @@ salary = 45500.50
 strtxt = "My Name is " + name + " and Place is " + place + " MY code is " +\
        str(code) + " My Salary is " + str(salary)
 print(strtxt)
-
 print("My Name is ", name, " and Place is ", place, " MY code is ", code ,
       " My Salary is ", salary)
 print(type(code))

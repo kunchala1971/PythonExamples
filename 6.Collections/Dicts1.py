@@ -23,8 +23,8 @@ for value in vehicle.values():
     print(value)
 print("")
 #if you want to key and values
-for k, v in vehicle.items():
-    print(k, v)
+for key, value in vehicle.items():
+    print(key, value)
 print("")
 if "model" in vehicle:
     print("Yes, 'model' is one of the key")

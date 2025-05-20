@@ -1,4 +1,9 @@
 #create new file and read created file
+#File Modes
+#w write
+#r read
+#a append
+#x existed
 fname = input("Enter Your File Name")
 f = open(fname, "w")
 try:
