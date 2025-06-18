@@ -1,6 +1,6 @@
 #sample1
-for X in 'Python':
-    print(X,end=", ")
+for element in 'Python':
+    print(element,end=", ")
 print("")
 for element in "Hello Python How  are you":
      print(element,end=", ")
@@ -12,8 +12,8 @@ for item in "123456":
 print("")
 
 x=input("Enter a content")
-for p in x:
-    print(p,end=", ")
+for element in x:
+    print(element,end=", ")
 print("")
 
 #take n and print 1... n numbers
@@ -28,7 +28,8 @@ n=input("Ener any number")
 i=1
 while i <= 10:
     #print(n , "X" , i , "=" , int(n) * i)
-    print(str(n) + "X" + str(i) + "=" + str(int(n) * i))
+    # print(str(n) + "X" + str(i) + "=" + str(int(n) * i))
+    print(f"{n}X{i}={int(n)*int(i)}")
     i = i + 1
 
 

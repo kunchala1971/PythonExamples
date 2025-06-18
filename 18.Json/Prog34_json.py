@@ -12,7 +12,7 @@ x = {
   ]
 }
 # use four indents to make it easier to read the result:
-print(json.dumps(x))
-# print(json.dumps(x, indent=2))
-# print(json.dumps(x, indent=4, separators=(", ", " = ")))
-# print(json.dumps(x, indent=4, sort_keys=True))
+#print(json.dumps(x))
+#print(json.dumps(x, indent=4))
+#print(json.dumps(x, indent=4, separators=(", ", " = ")))
+print(json.dumps(x, indent=4, sort_keys=True))
