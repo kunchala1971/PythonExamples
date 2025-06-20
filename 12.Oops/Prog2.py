@@ -1,15 +1,19 @@
-#assign values dirctly in class memebers
-class MyClass:
-    def __init__(self,code,name):
-       self.code=code
-       self.name=name
-    def showData(self):
-       print(self.code)
-       print(self.name)
-p=MyClass(100,"SrinivasaRao")
-p.showData()
-p.code=input("Enter Code")
-p.name=input("Enter Name")
-p.showData()
-print("Code:"+ p.code)
-print("Name:" + p.name)
+# how can access clss members out side of the class
+from contextlib import nullcontext
+class StudentDetails():
+    code=nullcontext
+    name=nullcontext
+    course=nullcontext
+    def showStudentDetails(self):
+        print("Code:", self.code)
+        print("Name:", self.name)
+        print("Course:", self.course)
+
+ram=StudentDetails()
+ram.code=int(input("Enter code"))
+ram.name=input("Enter Name")
+ram.course=input("Enter Course")
+print("Code:", ram.code)
+print("Name:",ram.name)
+print("Course:",ram.course)
+ram.showStudentDetails()

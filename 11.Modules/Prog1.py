@@ -20,5 +20,8 @@ MM.showList(tuples)
 n=int(input("Enter any number"))
 MM.prime(n)
 
+n=int(input("Enter any number it prints that pattern"))
+MM.printPatter(n)
+MM.printFullPatter(n)
 
 

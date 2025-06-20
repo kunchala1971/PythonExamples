@@ -42,3 +42,12 @@ def prime(n):
         print("This is Not Prime")
     else:
         print("This is Prime")
+def printPatter(n):
+    for i in range(1,n+1):
+        print("*" * i)
+
+def printFullPatter(n):
+    for i in range(1,n+1):
+        print("*" * i)
+    for i in range(n,0,-1):
+        print("*" * i)

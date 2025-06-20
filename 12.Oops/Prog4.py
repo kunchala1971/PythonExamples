@@ -1,36 +1,28 @@
-"""
-The Relation between parent class and child class is called inheritance
-or
-The mechanisam between Base Class and Derived class is called inheritance
-"""
-#Single Inheritance
-class Parent(object):
-    def __init__(self, pname):
-        self.pname = pname
-    def get_details(self):
-        return self.pname
-class Child(Parent):
-    def __init__(self, pname, name, branch, year):
-        Parent.__init__(self, pname)
+#Parameterised  constructor
+class Student:
+    def __init__(self,code,name,course):
+        self.code=code
         self.name=name
-        self.branch = branch
-        self.year = year
-    def insertData(self,pname,name,branch,year):
-        Parent.__init__(self, pname)
-        self.name=name
-        self.branch=branch
-        self.year=year
-    def get_details(self):
-        #returns a string containing student's details
-        return "Parent Name is %s Child name is %s studies %s and is in %s year." \
-               % (self.pname,self.name, self.branch, self.year)
+        self.course=course
+    def setStudentData(self,code,name,course):
+        self.code = code
+        self.name = name
+        self.course = course
+    def showStudentData(self):
+        print("Code:",self.code)
+        print("Name:",self.name)
+        print("Course:",self.course)
+#when ever the class is instantiated
+#automatically the constructor should be execute
 
-fathername=input("Enter Father Name")
-studentname=input("Enter student Name")
-branch=input("Enter Branch Code")
-joinyear=input("Enter Join Year")
-child=Child(fathername,studentname,branch,joinyear)
-print(child.get_details())
-child.insertData('KSR','Venkat','B.Tech',2022)
-print(child.get_details())
+code=int(input("Enter Code"))
+name=input("Enter Name")
+course=input("Enter Course")
+sri=Student(code,name,course)
+sri.showStudentData()
 
+code=int(input("Enter Code"))
+name=input("Enter Name")
+course=input("Enter Course")
+sri.setStudentData(code,name,course)
+sri.showStudentData()

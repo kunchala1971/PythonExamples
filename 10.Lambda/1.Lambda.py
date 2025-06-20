@@ -1,5 +1,4 @@
 #lambda expression with pass arguments
-from colorsys import yiq_to_rgb
 
 x = lambda a : a * 10
 a=int(input("Enter a Value"))

@@ -1,19 +1,27 @@
-#Constructor Example
-class MyClass:
-    def __init__(self,code,name):
-        self.code=code
-        self.name=name
-    def insertData(self,code,name):
+#What is the constructor
+#to initialize the class members
+#using __init__ method (it provides system(pre-defined method))
+#defalut constructor
+class Student:
+    def __init__(self):
+        self.code=100
+        self.name="Venkat"
+        self.course="Python"
+    def setStudentData(self,code,name,course):
         self.code = code
         self.name = name
-    def showData(self):
-        print("Code :",self.code)
+        self.course = course
+    def showStudentData(self):
+        print("Code:",self.code)
         print("Name:",self.name)
-code=input("Enter code")
-name=input("Enter Name")
-#when the class is instantiated then init method is executed
-p=MyClass(code,name)#Construct the class init functions
-p.showData()
-p.insertData(101,"Kishore")
-p.showData()
+        print("Course:",self.course)
+#when ever the class is instantiated
+#automatically the constructor should be execute
 
+sri=Student()
+sri.showStudentData()
+code=int(input("Enter Code"))
+name=input("Enter Name")
+course=input("Enter Course")
+sri.setStudentData(code,name,course)
+sri.showStudentData()

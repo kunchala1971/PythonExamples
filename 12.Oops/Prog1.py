@@ -1,26 +1,26 @@
 class StudentDetails:
     code=100
-    name="SrinivasaRao"
-    course="Python"
+    name="Venkat"
+    course="CSE"
     def showData(self):
-        print(self.code)
-        print(self.name)
-        print(self.course)
+        print("Code :",self.code)
+        print("Name:",self.name)
+        print("Course:",self.course)
     def insertData(self,code,name,course):
         self.code=code
         self.name=name
         self.course=course
 
-p=StudentDetails()# p is an instance of studentdetails
-p.showData()
-p.insertData(102,"Kiran","Java")
-p.showData()
+sri=StudentDetails()
+sri.showData()
+code=int(input("Enter Student Code"))
+name=input("Enter Name")
+course=input("Enter Course")
+sri.insertData(code,name,course)
+sri.showData()
 
-q=StudentDetails()
-q.insertData(101,"Durrga","Python")
-q.showData()
+ram=StudentDetails()
+ram.showData()
+ram.insertData(102,"Vasu","Java")
+ram.showData()
 
-p.showData()
-
-y=StudentDetails()
-y.showData()
