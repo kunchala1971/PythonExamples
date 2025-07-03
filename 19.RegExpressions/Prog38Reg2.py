@@ -20,7 +20,7 @@ str = "Hi Students How are You Hai"
 #Check if the string contains "H+" followed by 0 or more "x" characters:
 x = re.findall("H+", str)
 print(x)
-str = "Hi Students How are You HH  hai this is tesing HHa"
+str = "Hi Students How are You HH  hai this is testing HHa"
 x = re.findall("HH*", str)
 print(x)
 str = "Hi Students How are You HH!"
@@ -35,7 +35,7 @@ if (x):
 else:
   print("No match")
 str = "Welcome to Python Students"
-x = re.split("\s", str)
+x = re.split("\s", str) #\s means empty space
 print(x)
 str = "Welcome to Python Students9"
 x = re.sub("\s", "_", str)

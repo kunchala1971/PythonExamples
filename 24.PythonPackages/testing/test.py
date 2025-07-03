@@ -10,4 +10,3 @@ print(path.parent)
 path=path.with_suffix(".py")
 print(path)
 print(path.exists())
-

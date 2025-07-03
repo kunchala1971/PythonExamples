@@ -1,41 +1,30 @@
-#Multilevel Inheritance
-class GrandParent(object):
-    def __init__(self, gname):
-        self.gname = gname
+#Hirarchical Inheritance
+class Person(object):
+    def __init__(self, name,dept):
+        self.name = name
+        self.dept = dept
     def get_details(self):
-        return self.gname
-
-class Parent(GrandParent):
-    def __init__(self, pname,gname):
-        GrandParent.__init__(self, gname)
-        self.pname = pname
-    def get_details(self):
-        return self.pname
-
-class Child(Parent):
-    def __init__(self,gname, pname,name, branch, year):
-        Parent.__init__(self, pname,gname)
-        self.name=name
+        return self.name+ "-"+self.dept
+class Student(Person):
+    def __init__(self, name,dept,branch, year):
+        Person.__init__(self, name,dept)
         self.branch = branch
         self.year = year
     def get_details(self):
-        "Returns a string containing student's details."
-        return "Grand Father Name is %s and Parent Name is %s " \
-               "Chid name is %s studies %s and " \
-               "is in %s year." \
-               % (self.gname,self.pname,self.name,
-                  self.branch, self.year)
-        # print("Grand Father Name is %s and Parent Name is %s " \
-        #        "Chid name is %s studies %s and " \
-        #        "is in %s year." \
-        #     % (self.gname, self.pname, self.name,
-        #        self.branch, self.year))
+        return "%s Department %s studies %s and is in %s year." \
+               % (self.dept,self.name, self.branch, self.year)
+class Teacher(Person):
+    def __init__(self, name,dept,papers):
+        Person.__init__(self, name,dept)
+        self.papers = papers
+    def get_details(self):
+        return "%s Deptartment %s teaches %s" % \
+               (self.dept,self.name, ','.join(self.papers))
+    def get_papers(self):
+        return self.papers
 
-gpname=input("Enter Grand Parent Name")
-pname=input("Enter  Parent Name")
-cname=input("Enter Child Name")
-course=input("Enter Course Name")
-jyear=input("Enter Join Year")
-Child1 = Child(gpname,pname,cname,course,jyear)
-print(Child1.get_details())
-# Child1.get_details()
+student = Student('Niharika',"Eelectronics", 'ECE', 2017)
+teacher = Teacher('Venkat',"Computers", ['C', 'C++','java','Python'])
+print(student.get_details())
+print(teacher.get_details())
+print(teacher.get_papers())

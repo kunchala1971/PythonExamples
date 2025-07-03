@@ -6,9 +6,9 @@
 import mysql.connector as conn
 try:
   mydb = conn.connect(
-    host="localhost",#server name
+    host="localhost",#server name127.0.0.1
     user="root", # by default my sql user name is root and password is blank
-    passwd="", # if password is exists enter password otherwise no need
+    passwd="DURGA", # if password is exists enter password otherwise no need
     port="3306"
   )
   print(mydb)

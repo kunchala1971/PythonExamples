@@ -3,8 +3,8 @@ import mysql.connector as conn
 mydb = conn.connect(
   host="localhost",
   user="root",
-  passwd="",
-  database="KKCC"
+  passwd="DURGA",
+  database="kkcc"
 )
 """
 create table tablename(

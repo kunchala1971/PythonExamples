@@ -1,9 +1,10 @@
 import json
 
 import requests
-
-# response=requests.get("https://jsonplaceholder.typicode.com/users")
-response=requests.get("https://jsonplaceholder.typicode.com/todos")
+#before run theis program we should install the following package
+#pip install requests
+response=requests.get("https://jsonplaceholder.typicode.com/users")
+#response=requests.get("https://jsonplaceholder.typicode.com/todoss")
 print(response.status_code)
 data=response.json()
 # x=json.dumps(data,indent=4)

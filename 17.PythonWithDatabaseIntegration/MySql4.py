@@ -4,7 +4,7 @@ try:
   mydb = conn.connect(
     host="localhost",
     user="root",
-    passwd="",
+    passwd="DURGA",
     database="KKCC"
   )
   """

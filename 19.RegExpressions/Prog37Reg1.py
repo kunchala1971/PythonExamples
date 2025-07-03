@@ -10,7 +10,7 @@ if (x):
   print("Yes, there is a match!")
 else:
   print("No match")
-str = "Hello how are you 5  students"
+str = "Hello how are you 5  students!"
 #Find all lower case characters alphabetically between "begin character" and "end character":
 x = re.findall("[a-z,A-Z]", str)
 print(x)
