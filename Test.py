@@ -1,4 +1,2 @@
-name="      sree      "
-print(name.lstrip())
-print(name.rstrip())
-print(name.strip())
+list=[1,2,3,4]
+print (13 in list)
