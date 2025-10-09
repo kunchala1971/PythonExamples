@@ -29,6 +29,6 @@ else:
 #print lengthe of tuple
 print(len(month_names))
 print(type(month_names))
-print(len(month_names[1]))
+print(len(month_names[2]))
 del month_names
 

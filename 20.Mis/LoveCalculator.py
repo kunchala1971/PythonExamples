@@ -18,9 +18,11 @@ second_digit=l+o+v+e
 
 score=int(str(first_digit)+str(second_digit))
 
-if score<10 and score>90:
+# if score < 10 and score > 90: #General Style
+if 10 > score > 90: #Simplified Style
   print(f"your score is {score} , you go together like coke and mentos")
-elif score>=40 and score<=50:
+# elif score>=40 and score<=50:#General Style
+elif 40 <= score <= 50:#Simplified Style
   print(f"your score is {score} you are alright together")
 else:
   print(f"your score is {score}")

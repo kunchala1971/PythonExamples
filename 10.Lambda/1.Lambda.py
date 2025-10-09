@@ -19,3 +19,6 @@ c=int(input("Enter c Value"))
 x = lambda a, b, c : a * b + c
 print(x(a, b, c))
 
+area=lambda r,pi : pi*r*r
+print(area(4.56,3.1416))
+

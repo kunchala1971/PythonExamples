@@ -15,6 +15,7 @@ class Student:
 #when ever the class is instantiated
 #automatically the constructor should be execute
 
+# parameterised constructor
 code=int(input("Enter Code"))
 name=input("Enter Name")
 course=input("Enter Course")
@@ -26,3 +27,4 @@ name=input("Enter Name")
 course=input("Enter Course")
 sri.setStudentData(code,name,course)
 sri.showStudentData()
+

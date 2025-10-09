@@ -10,4 +10,4 @@ print("A X B=", a*b) # Multiplication
 print("A/B=", a/b) # Division
 print("A//B=", a//b) # Rounded to floor
 print("A%B=", a%b) # Moduls
-print("2 Power 8=", 2**8) # Exponentiation**
+print("2 Power 8=", 2**8) # Exponentiation **

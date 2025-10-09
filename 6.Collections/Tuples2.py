@@ -1,5 +1,5 @@
 #Using the Tuples get month and week names full/short
-month_names_short=("Jan","Feb","March","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
+month_names_short=("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
 month_names_full=("January","February","March","Apr","May","Jun","Jul","August","September","October","November","December")
 week_names_full=("Sunday","Monday","TuesDay","WednesDay","ThursDay","Friday","SaturDay")
 week_names_short=("Sun","Mon","Tue","Wed","Thu","Fri","Sat")

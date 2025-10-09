@@ -6,7 +6,7 @@ class StudentDetails:
         print("Code :",self.code)
         print("Name:",self.name)
         print("Course:",self.course)
-    def insertData(self,code,name,course):
+    def insertData(self,code, name, course):
         self.code=code
         self.name=name
         self.course=course

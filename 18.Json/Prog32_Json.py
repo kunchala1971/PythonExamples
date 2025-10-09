@@ -10,7 +10,6 @@ print(y["age"])
 print(y["name"])
 print(y["city"])
 x = {
-
   "name": "John",
   "age": 30,
   "city": "New York"

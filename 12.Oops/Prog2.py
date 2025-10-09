@@ -1,4 +1,4 @@
-# how can access clss members out side of the class
+# how can access class members out side of the class
 from contextlib import nullcontext
 class StudentDetails():
     code=nullcontext

@@ -15,4 +15,4 @@ try:
   #bydefault the database name will take automatically lowercase letter
   print("Db Successfully Created")
 except:
-  print("Db alreay Created")
+  print("Db already Created")

@@ -7,7 +7,6 @@ def display():
 
 t1=Thread(target=display,name="ChildThread1")
 t2=Thread(target=display,name="ChildThread2")
-
 t1.start()
 t2.start()
 

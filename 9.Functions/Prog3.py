@@ -6,10 +6,10 @@ def print_multiple_table(n):
         #print(str(n)+"x"+str(i)+"="+ str(int(n) * i))
         i = i + 1
 
-n=int(input("Enter any number"))
-print_multiple_table(n)
-n=int(input("Enter any number"))
-print_multiple_table(n)
+# n=int(input("Enter any number"))
+# print_multiple_table(n)
+# n=int(input("Enter any number"))
+# print_multiple_table(n)
 n=int(input("Enter any number"))
 print_multiple_table(n)
 

@@ -1,4 +1,4 @@
-#finally is an ultimate executing branch regardles of result
+#finally is an ultimate executing branch regardless of result
 name="Srinviasa"
 try:
   print(name)

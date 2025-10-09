@@ -11,7 +11,6 @@ print(result)
 #using For Loop
 for x in fruits:
     print(x)
-
 #Sample2(Other than Strings)
 numbers=[2,4,6,8,10]
 print(numbers)

@@ -51,5 +51,6 @@ print("")
 #or
 vehicle.clear()
 print("")
+print("My Vehicle Details")
 for key, value in myvehicle.items():
     print(key, value)

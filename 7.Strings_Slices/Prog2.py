@@ -9,6 +9,6 @@ for i in range(1,61):
     code="ECE2025/"+ str(i)
     print(f"Dear {code}, Please attend class {'24-Jun-2025'} onwards")
 
-for i in [1,2,5,7,8]:
+for i in [1,2,5,7,8,11]:
     code="ECE2024/"+ str(i)
     print("Dear {}, Please attend class {} onwards".format(code,"24-Apr-2024"))

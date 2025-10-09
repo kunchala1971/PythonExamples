@@ -1,4 +1,4 @@
-#show the threads identity
+#show the threads identity(means an address of the thread)
 from threading import *
 def test():
     print("Child Thread")

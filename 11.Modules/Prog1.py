@@ -1,4 +1,4 @@
-import MyModules as MM
+import MyModules as MM #MM is an alias name of MYModules
 a=int(input("Enter any number"))
 b=int(input("Enter any number"))
 result=MM.add(a,b)
@@ -8,6 +8,7 @@ result=MM.add3(a,b,c)
 print(result)
 result=MM.area(4.5)
 print(result)
+
 result=MM.square(12)
 print(result)
 MM.greeting("SrinivasRao.K")
@@ -21,7 +22,7 @@ n=int(input("Enter any number"))
 MM.prime(n)
 
 n=int(input("Enter any number it prints that pattern"))
-MM.printPatter(n)
-MM.printFullPatter(n)
+MM.printPattern(n)
+MM.printFullPattern(n)
 
 

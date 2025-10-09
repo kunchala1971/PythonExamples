@@ -7,7 +7,6 @@ print(a<b) #false
 print(a>=b) #True
 print(a<=b) #false
 print(a!=b) #true
-
 #Logical Operators
 c=55
 print(a>b and a>c) #false
