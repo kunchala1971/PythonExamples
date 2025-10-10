@@ -34,10 +34,10 @@ user_2.deposit(int(input("Enter Account 2 Deposit Amount")))
 print("User 1 Balance: {}/-".format(user_1.get_balance()))
 print("User 2 Balance: {}/-".format(user_2.get_balance()))
 
-tamount=int(input("Enter how much amount transfer to account 2"))
-result=transfer_amount(user_1, user_2, tamount)
+transferAmount=int(input("Enter how much amount transfer to account 2"))
+result=transfer_amount(user_1, user_2, transferAmount)
 if result==True:
-    print("Transferring " + str(tamount) + " /- from User 1 to User 2")
+    print("Transferring " + str(transferAmount) + " /- from User 1 to User 2")
 else:
     print("Amount Transfer Fail")
 
