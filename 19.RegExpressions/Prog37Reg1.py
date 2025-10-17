@@ -1,10 +1,10 @@
 import re
 txt = "Hello hai SrinivasaRao how are you"
-x = re.search("^Hello.*ou$", txt)
+x = re.search("^Hel.*ou$", txt)
 print (x)
 str = "Hello how are you"
 #Check if the string starts with "Hello":
-x = re.findall("\AHel", str)
+x = re.findall("AHel", str)
 print(x)
 if (x):
   print("Yes, there is a match!")
@@ -16,7 +16,7 @@ x = re.findall("[a-z,A-Z]", str)
 print(x)
 str = "Total Python Students is 50 members in 2020"
 #Find all digit characters:
-x = re.findall("\d", str) # find digits
+x = re.findall("d", str) # find digits
 print(x)
 str = "Welcome to Python Students"
 x = re.findall("W.l..m.", str)

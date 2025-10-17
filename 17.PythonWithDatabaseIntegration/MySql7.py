@@ -7,7 +7,7 @@ mydb = conn.connect(
   database="KKCC"
 )
 mycursor = mydb.cursor()
-sql = "SELECT * FROM listofmovies ORDER BY sno " #by default ascending
+sql = "SELECT * FROM listofmovies ORDER BY sno  " #by default ascending
 #sql = "SELECT * FROM listofmovies ORDER BY movie_name desc"  #descending
 mycursor.execute(sql)
 myresult = mycursor.fetchall()
