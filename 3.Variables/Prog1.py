@@ -5,9 +5,9 @@ name = 'SrinivasaRao.K'
 place = "Ongole"
 salary = 45500.50
 # str function can change any format to string format
-strtxt = "My Name is " + name + " and Place is " + place + " MY code is " +\
+msg = "My Name is " + name + " and Place is " + place + " MY code is " +\
        str(code) + " My Salary is " + str(salary)
-print(strtxt)
+print(msg)
 print("My Name is ", name, " and Place is ", place, " MY code is ", code ,
       " My Salary is ", salary)
 print(type(code))
