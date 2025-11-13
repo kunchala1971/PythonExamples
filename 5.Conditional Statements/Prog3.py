@@ -1,4 +1,4 @@
-playername=input("Enter Player Name: ")
+playerName=input("Enter Player Name: ")
 score=int(input("Enter Score: "))
 result=""
 if score==0:
@@ -22,4 +22,4 @@ elif score==200:
 elif score>200:
     result="Above Double Century"
 
-print("Player Name is {}, he scores {} and got the rank is {}".format(playername,score ,result))
+print("Player Name is {}, he scores {} and got the rank is {}".format(playerName,score ,result))
