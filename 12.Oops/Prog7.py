@@ -20,16 +20,16 @@ class Child(Parent):
         self.year = year
     def get_details(self):
         "Returns a string containing student's details."
-        return "Grand Father Name is %s and Parent Name is %s " \
-               "Chid name is %s studies %s and " \
-               "is in %s year." \
-               % (self.gname,self.pname,self.name,
-                  self.branch, self.year)
-        # print("Grand Father Name is %s and Parent Name is %s " \
+        # return "Grand Father Name is %s and Parent Name is %s " \
         #        "Chid name is %s studies %s and " \
         #        "is in %s year." \
-        #     % (self.gname, self.pname, self.name,
-        #        self.branch, self.year))
+        #        % (self.gname,self.pname,self.name,
+        #           self.branch, self.year)
+        print("Grand Father Name is %s and Parent Name is %s " \
+               "Chid name is %s studies %s and " \
+               "is in %s year." \
+            % (self.gname, self.pname, self.name,
+               self.branch, self.year))
 
 gpname=input("Enter Grand Parent Name")
 pname=input("Enter  Parent Name")
@@ -37,5 +37,5 @@ cname=input("Enter Child Name")
 course=input("Enter Course Name")
 jyear=input("Enter Join Year")
 Child1 = Child(gpname,pname,cname,course,jyear)
-print(Child1.get_details())
-# Child1.get_details()
+# print(Child1.get_details())
+Child1.get_details()

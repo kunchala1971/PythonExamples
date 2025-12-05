@@ -1,6 +1,7 @@
 #What is the constructor
 #to initialize the class members
 #using __init__ method (it provides system(pre-defined method))
+#whenever we instantiated the class automatically constructor should be executed
 #defalut constructor
 class Student:
     def __init__(self):

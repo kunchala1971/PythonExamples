@@ -10,10 +10,10 @@ def print_multiple_table(n):
 # print_multiple_table(n)
 # n=int(input("Enter any number"))
 # print_multiple_table(n)
-n=int(input("Enter any number"))
-print_multiple_table(n)
+# n=int(input("Enter any number"))
+# print_multiple_table(n)
 
-# min=int(input("Enter Lower Value"))
-# max=int(input("Enter Higher Value"))
-# for i in range(min,max+1):
-#     print_multiple_table(i)
+min=int(input("Enter Lower Value"))
+max=int(input("Enter Higher Value"))
+for i in range(min,max+1):
+    print_multiple_table(i)

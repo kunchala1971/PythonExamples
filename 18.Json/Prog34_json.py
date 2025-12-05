@@ -12,6 +12,7 @@ x = {
   ]
 }
 # use four indents to make it easier to read the result:
+#print(x)
 #print(json.dumps(x))
 #print(json.dumps(x, indent=4))
 #print(json.dumps(x, indent=4, separators=(", ", " = ")))

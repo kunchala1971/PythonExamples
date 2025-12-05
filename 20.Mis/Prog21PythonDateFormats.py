@@ -14,10 +14,10 @@ print(x.strftime("%Y")) #Year full form
 print(x.strftime("%y")) #Year full Shortform
 print(x.strftime("%H")) # return hours 24 hours format
 print(x.strftime("%I")) # returns 12 hours format
-print(x.strftime("%M")) # returns Minuts
+print(x.strftime("%M")) # returns Minutes
 print(x.strftime("%S")) # returns Seconds
 print(x.strftime("%p")) # return AM/PM
-print(x.strftime("%f")) # returns Millisonds
+print(x.strftime("%f")) # returns Milliseconds
 print(x.strftime("%j")) # Returns day of year
 print(x.strftime("%U"))# returns week number of year
 print(x.strftime("%c")) # returns local datetime

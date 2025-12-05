@@ -1,19 +1,19 @@
 #sample1
-for element in 'Python':
-    print(element,end=", ")
+for char in 'Python':
+    print(char,end=", ")
 print("")
-for element in "Hello Python How  are you":
-     print(element,end=", ")
+for char in "Hello Python How  are you":
+     print(char,end=", ")
 
 print("")
 
-for item in "123456":
-     print(item,end=", "),
+for num in "123456":
+     print(num,end=", "),
 print("")
 
 x=input("Enter a content")
-for element in x:
-    print(element,end=", ")
+for char in x:
+    print(char,end=", ")
 print("")
 
 #take n and print 1... n numbers
@@ -37,7 +37,7 @@ while i <= 10:
 n=int(input("Enter any number"))
 i = 2
 cnt = 0
-while i > 1 and i < n:
+while  i < n:
     if n % i == 0:
         cnt = cnt + 1
     i = i + 1
