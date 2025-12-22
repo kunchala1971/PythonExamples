@@ -14,12 +14,12 @@ columnname2 datatype(size),
 """
 mycursor = mydb.cursor()
 try:
-  mycursor.execute("CREATE TABLE listofmovies "
-                   "(sno int(5),movie_name varchar(30),"
-                   "hero_name VARCHAR(128),"
-                   "actress_name VARCHAR(128),"
-                   "director_name varchar(128),"
-                   "realease_year date)")
+  mycursor.execute("CREATE TABLE students "
+                   "(sno int(5),student_name varchar(30),"
+                   "course VARCHAR(128),"
+                   "city VARCHAR(128),"
+                   "state varchar(128),"
+                   "join_date date )")
   print("Table Successfully Created")
 except:
   print("Table already Created")

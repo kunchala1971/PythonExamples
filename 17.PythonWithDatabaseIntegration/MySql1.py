@@ -13,6 +13,6 @@ try:
   )
   print(mydb)
 except:
-  print("Connection not Established")
+  print("Connection is not Established")
 else:
   print("Connection is Ready")

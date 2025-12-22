@@ -20,5 +20,9 @@ inc=int(input("Enter Increment Value"))
 
 myclass = MyNumbers(startValue,endValue,inc)
 myiter = iter(myclass)
-for x in myiter:
-  print(x)
+# for x in myiter:
+#   print(x)
+print(next(myiter))
+print(next(myiter))
+print(next(myiter))
+print(next(myiter))

@@ -9,7 +9,7 @@ mydb = conn.connect(
 )
 try:
   mycursor = mydb.cursor()
-  sql = "DROP TABLE listofmovies"
+  sql = "DROP TABLE students"
   mycursor.execute(sql)
   print("Table is Deleted")
 except:

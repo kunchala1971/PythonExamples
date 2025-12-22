@@ -8,7 +8,7 @@ mydb = conn.connect(
   database="KKCC"
 )
 mycursor = mydb.cursor()
-mycursor.execute("SELECT * FROM listofmovies order by sno desc LIMIT 1")
+mycursor.execute("SELECT * FROM students order by sno desc LIMIT 1")
 myresult = mycursor.fetchall()
 for x in myresult:
   print(x)

@@ -7,10 +7,10 @@ mydb =conn.connect(
   database="KKCC"
 )
 mycursor = mydb.cursor()
-director_name=(input("Enter Directory Name"))
-movie_name=input("Enter Movi Name")
-sql = "UPDATE listofmovies SET director_name = '" \
-      + director_name + "' WHERE movie_name='" + movie_name + "'"
+course=(input("Enter course"))
+student_name=input("Enter student name")
+sql = "UPDATE students SET course = '" \
+      + course + "' WHERE student_name='" + student_name + "'"
 mycursor.execute(sql)
 mydb.commit()
 print(mycursor.rowcount, "record(s) affected")

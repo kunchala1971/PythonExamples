@@ -7,7 +7,7 @@ mydb = conn.connect(
   database="KKCC"
 )
 mycursor = mydb.cursor()
-mycursor.execute("SELECT * FROM listofmovies ")
+mycursor.execute("SELECT * FROM students ")
 myresult = mycursor.fetchall()
 for x in myresult:
   print(x)
