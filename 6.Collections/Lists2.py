@@ -1,6 +1,6 @@
 #take n elemens and print origianl,sorted,reverse order
 items=[]
-n=int(input("How much Items you want to read"))
+n=int(input("How much Items you want to Create"))
 for x in range(1,n+1):
     element=input("Enter Item Name")
     items.append(element)
