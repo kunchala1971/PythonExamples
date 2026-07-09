@@ -4,7 +4,7 @@
 #whenever we instantiated the class automatically constructor should be executed
 #defalut constructor
 class Student:
-    def __init__(self):
+    def __init__(self):#default constructor
         self.code=100
         self.name="Venkat"
         self.course="Python"

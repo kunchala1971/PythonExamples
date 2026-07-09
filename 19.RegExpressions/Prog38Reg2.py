@@ -14,7 +14,7 @@ else:
 str = "Hi Students How are You Hai Hima"
 #Check if the string contains "Hi" followed by 0 or more "x" characters:
 print(str)
-x = re.findall("Ho*", str)
+x = re.findall("Hi*", str)
 print(x)
 str = "Hi Students How are You Hai"
 #Check if the string contains "H+" followed by 0 or more "x" characters:
@@ -38,5 +38,5 @@ str = "Welcome to Python Students"
 x = re.split("\s", str) #\s means empty space
 print(x)
 str = "Welcome to Python Students9"
-x = re.sub("s", "_", str)
+x = re.sub("\s", "_", str)
 print(x)
