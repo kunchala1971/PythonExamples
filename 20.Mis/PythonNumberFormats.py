@@ -2,7 +2,7 @@
 print('{:.2f}'.format(5.39120))
 
 #Percentage format
-print('{:.2f}%'.format(10.12345))
+print('{:.3f}Grms'.format(10.12345))
 
 # make the total string size AT LEAST 9 (including digits and points),
 # fill with zeros to the left

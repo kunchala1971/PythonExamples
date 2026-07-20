@@ -2,7 +2,7 @@ from threading import *
 import time
 def display():
     print("\n"+ current_thread().name,"...started\n")
-    time.sleep(4)
+    time.sleep(1)
     print("\n"+ current_thread().name,"...ended\n")
 
 t1=Thread(target=display,name="ChildThread1")

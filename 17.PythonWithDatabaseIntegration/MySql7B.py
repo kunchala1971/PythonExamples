@@ -4,11 +4,11 @@ import mysql.connector as conn
 mydb = conn.connect(
   host="localhost",
   user="root",
-  passwd="DURGA",
+  passwd="",
   database="KKCC"
 )
 mycursor = mydb.cursor()
-mycursor.execute("SELECT * FROM students order by sno desc LIMIT 1")
+mycursor.execute("SELECT * FROM students order by sno desc LIMIT 2")
 myresult = mycursor.fetchall()
 for x in myresult:
   print(x)

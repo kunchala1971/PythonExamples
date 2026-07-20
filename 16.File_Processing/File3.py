@@ -2,7 +2,9 @@
 try:
   filename=input("enter file name")
   f = open(filename, "x")
+  print("Your Try Block")
 except:
+  print("Your in Exception Block")
   f = open(filename,"a")
 finally:
   content=input("enter content")

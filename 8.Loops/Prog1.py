@@ -24,7 +24,7 @@ while i <=(n):
     i += 1
 
 #Take number and print multiple Table
-n=input("Ener any number")
+n=input("Enter any number")
 i=1
 while i <= 10:
     #print(n , "X" , i , "=" , int(n) * i)

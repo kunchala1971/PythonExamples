@@ -18,3 +18,7 @@ print(type([1,2,3,4])) #list
 print(type((1,2,3,4))) #tuple
 print(type({1,2,3,4})) #set
 print(type({"1":1,"2":2,"3":3,"4":4})) #dicts
+code="Ram"
+print(type(code)) #string
+code=456.60
+print(type(code)) #float

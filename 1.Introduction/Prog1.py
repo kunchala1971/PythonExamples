@@ -1,12 +1,16 @@
 #Pythone Single Line comments
 """"
 Python Multiline Comments
+KKCC INFO SYSTEMS
+ONGOLE
 """
 '''
 Python Multiline Comments
+VENKAT IT SOLUTIONS
+ONGOLE
 '''
 #Python Input
-name=input("Enter name")#this is input funciton
+name=input("Enter name")#this is input function
 #Python Output Statement
 print(name)
 #by default all inputs in string format

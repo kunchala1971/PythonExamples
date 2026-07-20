@@ -7,6 +7,6 @@ def display():
 t=Thread(target=display)
 t.start()
 #t.join()#This Line executed by Main Thread
-t.join(5)#This Line executed by Main Thread after certain period
+t.join(6)#This Line executed by Main Thread after certain period
 for i in range(10):
     print("Rama Thread")

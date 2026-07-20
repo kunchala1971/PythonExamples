@@ -11,3 +11,6 @@ while (Number > 0):
 
 print("\n Reverse of entered number is = %d" % Reverse)
 print("\n Sum of Entered number is = %d" % sum)
+
+
+

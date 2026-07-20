@@ -38,5 +38,5 @@ str = "Welcome to Python Students"
 x = re.split("\s", str) #\s means empty space
 print(x)
 str = "Welcome to Python Students9"
-x = re.sub("s", "_", str)
+x = re.sub("Python", "Java", str)
 print(x)

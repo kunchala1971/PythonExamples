@@ -11,7 +11,7 @@ print(x.strftime("%w")) #returns now week day 0-6
 print(x.strftime("%d")) # returns day of month
 print(x.strftime("%m")) # returns month number
 print(x.strftime("%Y")) #Year full form
-print(x.strftime("%y")) #Year full Shortform
+print(x.strftime("%y")) #Year  Shortform
 print(x.strftime("%H")) # return hours 24 hours format
 print(x.strftime("%I")) # returns 12 hours format
 print(x.strftime("%M")) # returns Minutes
