@@ -3,24 +3,25 @@
 #         "price" : "45600",
 #         "year" : "2010"
 #       }
-vehicle={"model" : "Hero","price" : "45600","year" : "2010"}
+vehicle={"model" : "Hero","price" : 45600,"year" : 2010}
 x = vehicle["model"] #it gets value of model key through index
 print(x)
 x = vehicle.get("model")# it gets value of model key through method
 print(x)
 
-vehicle["year"] = 2023
+vehicle["year"] = 2026
 #it prints keynames
-for key in vehicle:
-    print(key)
+for el in vehicle:
+    print(el)
 print("")
 #it prints values
-for key in vehicle:
-    print(vehicle[key])
+for el in vehicle:
+    print(vehicle[el])
+    print(vehicle.get(el))
 print("")
 # if you want to direct values through loop
-for value in vehicle.values():
-    print(value)
+for el in vehicle.values():
+    print(el)
 print("")
 #if you want to key and values
 for key, value in vehicle.items():
@@ -35,7 +36,7 @@ for key, value in vehicle.items():
     print(key, value)
 print("")
 #copy one dictionary to another dictionary
-myvehicle=vehicle.copy()
+MyVehicle=vehicle.copy()
 # you can also remove the key and values
 vehicle.pop("model")
 for key, value in vehicle.items():
@@ -52,5 +53,5 @@ print("")
 vehicle.clear()
 print("")
 print("My Vehicle Details")
-for key, value in myvehicle.items():
+for key, value in MyVehicle.items():
     print(key, value)

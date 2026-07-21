@@ -1,6 +1,6 @@
 #Parameterised  constructor
 class Student:
-    def __init__(self,code,name,course):
+    def __init__(self,code,name,course): #parameterised
         self.code=code
         self.name=name
         self.course=course
@@ -12,8 +12,6 @@ class Student:
         print("Code:",self.code)
         print("Name:",self.name)
         print("Course:",self.course)
-#when ever the class is instantiated
-#automatically the constructor should be execute
 
 # parameterised constructor
 code=int(input("Enter Code"))

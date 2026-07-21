@@ -1,12 +1,12 @@
-#w.a.p to assing values and print string
-print("Welcome to Python First Program") #this is python output statment
+#w.a.p to assign values and print string
+print("Welcome to Python First Program") #this is python output statement
 code = 100
 name = 'SrinivasaRao.K'
 place = "Ongole"
 salary = 45500.50
 # str function can change any format to string format
-msg = "My Name is " + name + " and Place is " + place + " MY code is " +\
-       str(code) + " My Salary is " + str(salary)
+msg = ("My Name is " + name + " and Place is " + place + " MY code is " +
+       str(code) + " My Salary is " + str(salary))
 print(msg)
 print("My Name is ", name, " and Place is ", place, " MY code is ", code ,
       " My Salary is ", salary)

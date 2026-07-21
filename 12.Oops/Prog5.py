@@ -9,6 +9,7 @@ class Parent(object):
         self.pname = pname
     def get_details(self):
         return self.pname
+
 class Child(Parent):
     def __init__(self, pname, name, branch, year):
         Parent.__init__(self, pname)
@@ -22,8 +23,8 @@ class Child(Parent):
         self.year=year
     def get_details(self):
         #returns a string containing student's details
-        return "Parent Name is %s Child name is %s studies %s and is in %s year." \
-               % (self.pname,self.name, self.branch, self.year)
+        return ("Parent Name is %s Child name is %s studies %s and is in %s year."
+                % (self.pname,self.name, self.branch, self.year))
 
 fathername=input("Enter Father Name")
 studentname=input("Enter student Name")

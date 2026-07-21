@@ -1,3 +1,5 @@
+
+
 import MyModules as MM #MM is an alias name of MYModules
 a=int(input("Enter any number"))
 b=int(input("Enter any number"))
@@ -24,5 +26,4 @@ MM.prime(n)
 n=int(input("Enter any number it prints that pattern"))
 MM.printPattern(n)
 MM.printFullPattern(n)
-
 

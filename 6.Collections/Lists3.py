@@ -6,7 +6,7 @@ months.pop(0)
 print(months)
 months.insert(0,"jan")
 print(months)
-#months.clear()
 months.remove("jan")
+months.clear()
 #del months
 print(months)

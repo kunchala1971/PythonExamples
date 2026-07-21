@@ -1,10 +1,17 @@
 import re
+#^ Beginning
+#$ End
+#. Unknown Character
 txt = "Hello hai SrinivasaRao how are you"
 x = re.search("^Hel.*ou$", txt)
 print (x)
 str = "Hello how are you"
 #Check if the string starts with "Hello":
+<<<<<<< HEAD
 x = re.findall("Hel", str)
+=======
+x = re.findall("\AHel", str)
+>>>>>>> 68b29038d6538c87abac4de400c945ba112318ff
 print(x)
 if (x):
   print("Yes, there is a match!")

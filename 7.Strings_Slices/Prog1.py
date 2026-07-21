@@ -7,11 +7,9 @@ print(name[-2]) # Last to 2nd character print
 print(name[0:3]) # read the characters from 0 to 3
 print(name[4:]) # read the character 4 to end
 print(name[:5]) # read the character 0 to 5 th
-
 print(name.find("Hai"))
 # find the word in sentence and print the postion of the word
 print(name.find("a")) # get the character postion
-
 name="             Hello SrinivsaRao           "
 print(name)
 print(name.strip())# it removes the white space before and after the string (Trim)
