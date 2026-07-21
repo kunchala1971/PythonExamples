@@ -1,13 +1,13 @@
 for item in ["Jan","Feb","Mar"]:
     print(item)
 for item in [1,2,3,4]:
-	print(item)
+    print(item)
 print("   ")
 for item in range(10):
     print(item)
 for item in range(5,10):
-	print(item)
-# range(minimuvalue,maxvalue,step(increment))
+    print(item)
+# range(minvalue,maxvalue,step(increment))
 start=int(input("Enter start value"))
 End=int(input("Enter end value"))
 Step=int(input("Enter Step value"))
