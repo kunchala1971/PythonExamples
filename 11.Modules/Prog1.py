@@ -1,5 +1,3 @@
-
-
 import MyModules as MM #MM is an alias name of MYModules
 a=int(input("Enter any number"))
 b=int(input("Enter any number"))
